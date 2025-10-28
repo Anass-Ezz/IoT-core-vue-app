@@ -1,0 +1,39 @@
+{
+  "name": "vue-iot-guest",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-vue": "^3.1.30",
+    "@aws-crypto/sha256-js": "^5.2.0",
+    "@aws-sdk/client-cognito-identity": "^3.918.0",
+    "@aws-sdk/client-iot": "^3.918.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.918.0",
+    "@aws-sdk/protocol-http": "^3.370.0",
+    "@aws-sdk/signature-v4": "^3.370.0",
+    "aws-amplify": "^5.3.27",
+    "aws-iot-device-sdk-v2": "^1.23.1",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "mqtt": "^5.14.1",
+    "process": "^0.11.10",
+    "safe-buffer": "^5.2.1",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.1.11",
+    "vite-plugin-node-polyfills": "^0.24.0",
+    "vite-plugin-vue-devtools": "^8.0.3"
+  }
+}
